@@ -22,7 +22,7 @@ use KryuuCommon\Base64Url\Base64Url;
 echo Base64Url::encode('¹º»¼½¾¿À');
 ```
 
-**output*
+**output**
 ```
 wrnCusK7wrzCvcK-wr_DgA
 ```
