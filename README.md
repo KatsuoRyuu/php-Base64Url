@@ -2,12 +2,13 @@
 
 This is a simple library for encoding and decoding Base64Url, the basis of this
 is that the Base64 is not URL safe due to the characters `+`, `/` and `=`, so this
-encode replaces these characters with `=` to ``, `+` to `-` and `/` to `_` for 
+encode replaces these characters with `=` to ` `(nothing), `+` to `-` and `/` to `_` for 
 the purpose of using it in the URL.
 
 ## Installation
-
+```
 composer require kryuu-common/base64-url
+```
 
 ## Usage
 
