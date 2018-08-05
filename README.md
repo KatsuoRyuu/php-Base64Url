@@ -6,7 +6,7 @@ encode replaces these characters with `=` to ` `(nothing), `+` to `-` and `/` to
 the purpose of using it in the URL.
 
 ## Installation
-```
+``` bash
 composer require kryuu-common/base64-url
 ```
 
@@ -15,6 +15,8 @@ composer require kryuu-common/base64-url
 ### encode
 
 ``` php
+<?php
+
 use KryuuCommon\Base64Url\Base64Url;
 
 echo Base64Url::encode('¹º»¼½¾¿À');
@@ -28,6 +30,8 @@ wrnCusK7wrzCvcK-wr_DgA
 ### decode
 
 ``` php
+<?php
+
 use KryuuCommon\Base64Url\Base64Url;
 
 echo Base64Url::decode('wrnCusK7wrzCvcK-wr_DgA');
